@@ -1,0 +1,14 @@
+body {
+    background-color: F2E2CE;
+}
+div.locations {
+    display: flex;
+}
+.name {
+    background-color: F2E2CE;
+    flex-basis: 45%;
+}
+.images {
+    min-width: 670pt;
+    flex-basis: 55%;
+}
