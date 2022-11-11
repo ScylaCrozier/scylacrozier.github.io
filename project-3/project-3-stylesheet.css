@@ -1,6 +1,29 @@
 body {
+    background-color: #DDF3FE;
     font-family: 'Vollkorn', serif;
+}
+header {
+    padding: 25px;
+    background-color: #AFE4FF;
+}
+a {
+    color: black;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: #FFFFBE;
+}
+main {
+    margin: 50px;
+    margin-top: 0px;
+    background-color: #FFFFF0;
 }
 h1 {
     font-family: 'Homemade Apple', cursive;
+}
+@media (max-width: 720px) {
+
+}
+@media (max-width: 390px) {
+
 }
