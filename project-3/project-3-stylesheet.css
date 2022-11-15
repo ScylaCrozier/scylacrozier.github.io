@@ -56,32 +56,21 @@ h1 {
 end hamburger code*/
 
 @media (max-width: 720px) {
-    #hamburger-nav{
+    #hamburger-nav {
         display: block;
       }
-      #primary-nav{
+      #primary-nav {
         max-height: 0px;
       }
-      #primary-nav li{
-        display: none;
+      #primary-nav .nav {
+        flex-direction: column;
       }
       /* Here, we override the rule when the body has a class of nav-open */
-      body.nav-open #primary-nav{
+      body.nav-open #primary-nav {
         max-height: 400px;
       }
 }
-window.onload = function() {
-    /* First, tell JavaScript to remember which DOM element (in this case, a button) to reference (by id) */
-    let toggleNav = document.getElementById('toggle-nav');
 
-    /* Tell button to do something on click */
-    toggleNav.addEventListener('click', function(){
-
-      /* toggle the body's class attribute */
-      document.body.classList.toggle('nav-open');
-
-    });
-  };
 @media (max-width: 390px) {
 
 }
