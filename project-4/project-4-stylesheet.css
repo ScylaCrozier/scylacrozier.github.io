@@ -1,0 +1,33 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+h1 {
+    font-family: 'Lemon', cursive;
+}
+div.col-6 > picture > img {
+    max-width: 100%;
+    height: auto;
+}
+nav {
+    background-color: #1C9AD6;
+    padding: 40px;
+}
+nav > div > picture > img {
+    height: 60px;
+    width: auto;
+}
+nav > div > ul {
+    align-self: flex-end;
+}
+nav > div > ul > li > a {
+    color: black;
+}
+div.yellow {
+    background-color: #FFF200;
+}
+div.magenta {
+    background-color: #D40E8C;
+}
+div.orange {
+    background-color: #F7941D;
+}
