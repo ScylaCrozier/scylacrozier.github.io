@@ -1,6 +1,9 @@
 body {
     font-family: 'Nunito', sans-serif;
 }
+main {
+    max-width: 1440px;
+}
 h1 {
     font-family: 'Lemon', cursive;
 }
@@ -12,14 +15,14 @@ nav {
     background-color: #1C9AD6;
     padding: 40px;
 }
-nav > div > picture > img {
-    height: 60px;
-    width: auto;
+nav > div.row {
+    max-width: 1440px;
 }
-nav > div > ul {
-    align-self: flex-end;
+nav > div.row > div > picture > img {
+    width: 100%;
+    height: auto;
 }
-nav > div > ul > li > a {
+nav, a {
     color: black;
 }
 div.yellow {
