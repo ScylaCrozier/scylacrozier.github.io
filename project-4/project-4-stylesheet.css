@@ -15,6 +15,9 @@ nav {
     background-color: #1C9AD6;
     padding: 40px;
 }
+#hamburger-nav {
+    display: none;
+}
 nav > div.row {
     max-width: 1440px;
 }
@@ -33,4 +36,41 @@ div.magenta {
 }
 div.orange {
     background-color: #F7941D;
+}
+@media (max-width: 767px) {
+    h1 {
+        font-size: 20pt;
+    }
+}
+@media (max-width: 490px) {
+    #primary-nav {
+        max-height: 0px;
+    }
+    #hamburger-nav {
+        display: block;
+    }
+}
+@media (max-width: 390px) {
+    .row {
+      flex-direction: column;
+    }
+    #soda-pic {
+        order: 1;
+    }
+    #pick-soda {
+        order: 2;
+    }
+    #combine-pic {
+        order: 5;
+    }
+    #combine {
+        order: 6;
+    }
+    h1 {
+        font-size: 12pt;
+    }
+    main > div > div > div {
+        width: ;
+        height: auto;
+    }
 }
