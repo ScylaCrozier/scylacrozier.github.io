@@ -23,6 +23,7 @@ nav > div.row {
 }
 nav > div.row > div > picture > img {
     width: 100%;
+    min-width: 80px;
     height: auto;
 }
 nav, a {
@@ -42,16 +43,23 @@ div.orange {
         font-size: 20pt;
     }
 }
-@media (max-width: 490px) {
+@media (max-width: 500px) {
     #primary-nav {
-        max-height: 0px;
+        display: none;
+        width: 0px;
+        height: 0px;
     }
     #hamburger-nav {
         display: block;
     }
 }
+@media (max-width: 450px) {
+    h1 {
+        font-size: 18pt;
+    }
+}
 @media (max-width: 390px) {
-    .row {
+    main > div > div.row {
       flex-direction: column;
     }
     #soda-pic {
@@ -67,10 +75,14 @@ div.orange {
         order: 6;
     }
     h1 {
-        font-size: 12pt;
+        font-size: 16pt;
     }
-    main > div > div > div {
-        width: ;
+    body, main, main > div, main > div > div {
+        margin: none;
+        padding: none;
+    }
+    div.col-6 {
+        width: 100%;
         height: auto;
     }
 }
