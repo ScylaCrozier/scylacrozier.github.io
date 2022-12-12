@@ -124,12 +124,14 @@ div.content {
 div.rewards {
     background-size: auto;
 }
-div.rewards > h1 {
-    margin: auto;
+div.rewards > h1,p {
+    aspect-ratio: 1 / 1;
 }
 div.rewards-explain {
     background-color: #FED6A9;
+    text-align: left;
 }
 div.sign-up {
+    padding: 50px;
     background-color: #F7B6D2;
 }
