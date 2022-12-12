@@ -108,3 +108,13 @@ div.left-align {
 div.left-align > h1 {
     margin-bottom: 50px;
 }
+
+/* Menu Page Specific */
+div.content {
+    padding: 75px 0px 20% 5%;
+    background-image: url("../project-4/project-4-images/yellow-bubbles.webp");
+    text-align: left;
+}
+button {
+    background-color: #1C9AD6;
+}
