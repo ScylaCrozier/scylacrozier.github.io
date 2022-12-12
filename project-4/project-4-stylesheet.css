@@ -61,9 +61,13 @@ div.orange {
 }
 @media (max-width: 576px) {
     #primary-nav {
-        display: none;
-        width: 0px;
-        height: 0px;
+        max-height: 0px;
+    }
+    #primary-nav li{
+        display: block;
+    }
+    body.nav-open #primary-nav{
+        max-height: 400px;
     }
     #hamburger-nav {
         display: block;
@@ -119,4 +123,13 @@ div.content {
 /* Rewards Page Specific */
 div.rewards {
     background-size: auto;
+}
+div.rewards > h1 {
+    margin: auto;
+}
+div.rewards-explain {
+    background-color: #FED6A9;
+}
+div.sign-up {
+    background-color: #F7B6D2;
 }
