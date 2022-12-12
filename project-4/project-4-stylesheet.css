@@ -12,7 +12,7 @@ div.col-6 > picture > img {
     height: auto;
 }
 nav {
-    background-color: #1C9AD6;
+    background-color: #9ADBF4;
     padding: 40px;
 }
 #hamburger-nav {
@@ -30,13 +30,24 @@ nav, a {
     color: black;
 }
 div.yellow {
-    background-color: #FFF200;
+    background-image: url("../project-4/project-4-images/yellow-bubbles.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 div.magenta {
-    background-color: #D40E8C;
+    background-image: url("../project-4/project-4-images/magenta-bubbles.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 div.orange {
-    background-color: #F7941D;
+    background-image: url("../project-4/project-4-images/orange-bubbles.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+#magenta-right {
+    background-position-x: right;
+
 }
 @media (max-width: 767px) {
     h1 {
@@ -51,6 +62,9 @@ div.orange {
     }
     #hamburger-nav {
         display: block;
+        position: absolute;
+        right: 50px;
+        top: 50px;
     }
 }
 @media (max-width: 450px) {
