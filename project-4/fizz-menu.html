@@ -40,6 +40,63 @@
             </div>
         </div>
     </nav>
+    <main>
+        <div class="container content">
+            <div class="row">
+                <div class="bases col-sm-8">
+                    <h1>Soda Bases:</h1>
+                    <p>Coca-Cola, Pepsi, Sprite, Root beer, Sarsaparilla, gingerale, lemonade</p>
+                </div>
+                <div class="form">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected>Bases</option>
+                        <option value="Coca-Cola">Coca-Cola</option>
+                        <option value="Pepsi">Pepsi</option>
+                        <option value="Sprite">Sprite</option>
+                        <option value="Root-beer">Root beer</option>
+                        <option value="Sarsaparilla">Sarsaparilla</option>
+                        <option value="gingerale">gingerale</option>
+                        <option value="lemonade">lemonade</option>
+                      </select>
+                </div>
+            </div>
+            <div class="row"> 
+                <div class="flavors col-sm-8">
+                    <h1>Flavors:</h1>
+                    <p>Vanilla, Cherry, Caramel, Marshmallow, Strawberry, Blueberry, Cotton Candy, Pineapple, Mango, Passion Fruit, Chocolate, Lemon, Lime, Sour Apple, Raspberry, Black Berry, Watermelon, Grape</p>
+                </div>
+                <div class="form">
+                    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                        <option selected>Flavors</option>
+                        <option value="Vanilla">Vanilla</option>
+                        <option value="Cherry">Cherry</option>
+                        <option value="Caramel">Caramel</option>
+                        <option value="Marshmallow">Marshmallow</option>
+                        <option value="Strawberry">Strawberry</option>
+                        <option value="Blueberry">Blueberry</option>
+                        <option value="Cotton Candy">Cotton Candy</option>
+                        <option value="Pineapple">Pineapple</option>
+                        <option value="Mango">Mango</option>
+                        <option value="Passion Fruit">Passion Fruit</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Lemon">Lemon</option>
+                        <option value="Lime">Lime</option>
+                        <option value="Sour Apple">Sour Apple</option>
+                        <option value="Raspberry">Raspberry</option>
+                        <option value="Black Berry">Black Berry</option>
+                        <option value="Watermelon">Watermelon</option>
+                        <option value="Grape">Grape</option>
+                      </select>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script type="module">
+        import { Toast } from 'bootstrap.esm.min.js'
+      
+        Array.from(document.querySelectorAll('.toast'))
+          .forEach(toastNode => new Toast(toastNode))
+      </script>
 </body>
 </center>
 </html>
