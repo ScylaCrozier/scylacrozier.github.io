@@ -103,6 +103,7 @@ div.solid-yellow {
     background-color: #FDF6AD;
 }
 div.left-align {
+    padding-left: 2%;
     text-align: left;
 }
 div.left-align > h1 {
@@ -116,3 +117,6 @@ div.content {
     text-align: left;
 }
 /* Rewards Page Specific */
+div.rewards {
+    background-size: auto;
+}
