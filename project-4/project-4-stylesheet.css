@@ -7,7 +7,7 @@ main {
 h1 {
     font-family: 'Lemon', cursive;
 }
-div.col-6 > picture > img {
+div.col-sm-6 > picture > img {
     max-width: 100%;
     height: auto;
 }
@@ -54,7 +54,12 @@ div.orange {
         font-size: 20pt;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 450px) {
+    h1 {
+        font-size: 18pt;
+    }
+}
+@media (max-width: 576px) {
     #primary-nav {
         display: none;
         width: 0px;
@@ -66,13 +71,6 @@ div.orange {
         right: 50px;
         top: 50px;
     }
-}
-@media (max-width: 450px) {
-    h1 {
-        font-size: 18pt;
-    }
-}
-@media (max-width: 390px) {
     main > div > div.row {
       flex-direction: column;
     }
@@ -91,12 +89,11 @@ div.orange {
     h1 {
         font-size: 16pt;
     }
-    body, main, main > div, main > div > div {
-        margin: none;
-        padding: none;
+    div.yellow, div.magenta, div.orange {
+        background-position-y: bottom;
+        background-size: contain;
     }
-    div.col-6 {
-        width: 100%;
-        height: auto;
+    div.copy {
+        padding: 33% 0%;
     }
 }
