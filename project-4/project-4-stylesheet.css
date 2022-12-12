@@ -97,3 +97,8 @@ div.orange {
         padding: 33% 0%;
     }
 }
+@media (max-width: 992px) {
+    body.about-page > main > div > div.row {
+        flex-direction: column;
+    }
+}
