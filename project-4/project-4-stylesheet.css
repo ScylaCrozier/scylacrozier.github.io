@@ -3,6 +3,7 @@ body {
 }
 main {
     max-width: 1440px;
+    margin: 0px auto;
 }
 h1 {
     font-family: 'Lemon', cursive;
@@ -15,19 +16,27 @@ nav {
     background-color: #9ADBF4;
     padding: 40px;
 }
-#hamburger-nav {
-    display: none;
+nav > div.container-fluid {
+    max-width: 1440px;
+    margin: 0px auto;
 }
 nav > div.row {
     max-width: 1440px;
 }
-nav > div.row > div > picture > img {
+nav > div > a.navbar-brand > div > picture > img {
     width: 100%;
     min-width: 80px;
     height: auto;
+    margin: 10px 0px;
 }
 nav, a {
     color: black;
+    font-size: 18pt;
+}
+button.navbar-toggler {
+    position: absolute;
+    top: 30px;
+    right: 20px;
 }
 div.yellow {
     background-image: url("../project-4/project-4-images/yellow-bubbles.webp");
@@ -60,24 +69,6 @@ div.orange {
     }
 }
 @media (max-width: 576px) {
-    #primary-nav {
-        max-height: 0px;
-    }
-    #primary-nav li{
-        display: block;
-    }
-    body.nav-open #primary-nav{
-        max-height: 400px;
-    }
-    #hamburger-nav {
-        display: block;
-        position: absolute;
-        right: 50px;
-        top: 50px;
-    }
-    main > div > div.row {
-      flex-direction: column;
-    }
     #soda-pic {
         order: 1;
     }
@@ -107,7 +98,6 @@ div.solid-yellow {
     background-color: #FDF6AD;
 }
 div.left-align {
-    padding-left: 2%;
     text-align: left;
 }
 div.left-align > h1 {
