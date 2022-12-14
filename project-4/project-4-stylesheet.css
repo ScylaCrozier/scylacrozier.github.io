@@ -8,7 +8,7 @@ main {
 h1 {
     font-family: 'Lemon', cursive;
 }
-div.col-sm-6, div.col-sm-7 > picture > img {
+div.col-sm-6 > picture > img, div.col-sm-7 > picture > img {
     max-width: 100%;
     height: auto;
 }
